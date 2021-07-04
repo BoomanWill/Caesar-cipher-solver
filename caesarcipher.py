@@ -1,6 +1,6 @@
 import time
 
-codedmessage = input('enter the coded message\n')
+codedmessage = input('enter the coded message with no punctuation in all lower case\n')
 wordtext = open('path to your words.txt file')
 line = wordtext.readline()
 wordlist = []
