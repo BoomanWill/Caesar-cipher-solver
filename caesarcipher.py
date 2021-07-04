@@ -1,7 +1,7 @@
 import time
 
 codedmessage = input('enter the coded message\n')
-wordtext = open('/home/will/Documents/Tools/words.txt')
+wordtext = open('path to your words.txt file')
 line = wordtext.readline()
 wordlist = []
 for line in wordtext:
