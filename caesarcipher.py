@@ -36,7 +36,7 @@ for i in successful:
         unique.append(i)
 
 for u in unique:
-    if successful.count(u) >= len(words):
+    if successful.count(u) >= 0.95 * len(words):
         theshift = u
 
 solution = []
