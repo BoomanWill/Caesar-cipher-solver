@@ -27,7 +27,6 @@ for n in range(1, 52):
             letter = alphabet[index]
             wordsolution += letter
         print(wordsolution)
-        time.sleep(0.005)
         if wordsolution in wordlist:
             successful.append(n)
             solution.append(wordsolution)
